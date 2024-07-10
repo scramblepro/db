@@ -108,7 +108,7 @@ def find_client(conn, first_name=None, last_name=None, email=None, phone=None):
 
 # Пример использования функций
 
-with psycopg2.connect(database="python", user="postgres", password="QWeaSD070722", options='-c client_encoding=UTF8') as conn:
+with psycopg2.connect(database="python", user="postgres", password="******* ;)))", options='-c client_encoding=UTF8') as conn:
     create_db(conn)
 
     client_id = add_client(conn, "John", "Doe", "john.doe@example.com", ["1234567890", "0987654321"])
